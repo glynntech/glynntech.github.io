@@ -31,13 +31,13 @@
 # system. The flags -i and -t should be passed to sendmail in order to       #
 # have it ignore single dots on a line and to read message for recipients    #
 
-$mailprog = '/usr/lib/sendmail -i -t';
+$mailprog = '/usr/sbin/sendmail -i -t';
 
 # @referers allows forms to be located only on servers which are defined     #
 # in this field.  This is a security fix to prevent others from using your   #
 # FormMail script on their web site.                                         #
 
-@referers = ('scriptarchive.com','72.52.156.109');
+@referers = ('hawkinsandjedziniak.com');
 
 # @recipients defines the e-mail addresses or domain names that e-mail can   #
 # be sent to.  This must be filled in correctly to prevent SPAM and allow    #
