@@ -280,6 +280,11 @@ header
   transition: all 0.3s ease 0s;
 }
 
+.logo {
+  width: 247px;
+  height: 68px;
+}
+
 .background-header .main-nav .logo {
   line-height: 75px;
 }
